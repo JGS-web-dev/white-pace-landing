@@ -1,0 +1,30 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    margin-top: 80px;
+    padding: 0 16px;
+}
+
+.container h2 {
+    font-size: 36px;
+    color: var(--black);
+    margin-bottom: 24px;
+}
+
+.text {
+    margin-bottom: 60px;
+    font-size: 18px;
+}
+
+.workTogether {
+    margin-top: 100px;
+}
+
+.workTogether img {
+    margin-top: 60px;
+    width: 279px;
+}
