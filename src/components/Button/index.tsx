@@ -11,9 +11,8 @@ export default function Button({text, icon}: ButtonProps) {
 
     return(
         <button className={styles.btn}>
-            <p>{text}
-            {icon? <ArrowIcon/>: ''}
-            </p>
+            <p>{text}</p>
+            <p>{icon? <ArrowIcon/>: ''}</p>
         </button>
     )
 }
